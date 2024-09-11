@@ -27,7 +27,7 @@ public class ArrayList<T> implements IList<T> {
 
     @Override
     public boolean isEmpty() {
-        return this.size() == 0;
+        return size == 0;
     }
 
     private void ensureCapacity() {
